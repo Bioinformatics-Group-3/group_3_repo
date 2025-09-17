@@ -1,0 +1,4 @@
+Biological problem the authors are trying to solve
+
+The authors are attempting to increase atomic accuracy to address the gaps within single protein structures, the “protein folding problem.” They developed the first computational approach that is able to predict protein structures near experimental accuracy. They entered their neural network, AlphaFold, into the CASP14 assessment (protein prediction center), and crushed the competition in major protein prediction. AlphaFold’s predictions were off by only 0.96 Ångströms (unit to measure the size of atoms) on average (aka less than 1/10th the width of a single atom). The second-best method was off by 2.8 Ångströms—nearly three times worse. AlphaFold achieved a level of accuracy that was previously thought impossible: it can predict the protein backbone and also the precise positions of side chains.
+
