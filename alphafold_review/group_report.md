@@ -1,4 +1,7 @@
 # Group Report
 
-## Section A (Sophia)
+## Section 1 (Sophia)
 - Placeholder for my section.
+
+## Section 4 (Rayhan)
+- There are many reasons why we will not be able to replicate the study’s findings using their GitHub repository. We do not have the hardware or computing power to run Alphafold. The full installation of Alphafold requires up to 3 TB of disk space to keep genetic databases and a modern NVIDIA GPU. The disks should also be SSD and the NVIDIA GPU must have a large enough amount of memory and CUDA which contains 8-series family of GPUs from NVIDIA or later and even then some CUDA versions are not compatible with Docker or Alphafold. We are all using personal computers which are not as powerful as the cloud servers and research clusters that have much more power which is necessary to run Alphafold properly. We also do not have the right environment. We need to use Linux and Docker because Alphafold does not support other OSes. We will also need extra databases and model parameters in a separate directory such as aria2c,  BFD, MGnify, PDB70, PDB (structures in the mmCIF format), PDB seqres – only for AlphaFold-Multimer, UniRef30 (FKA UniClust30), UniProt – only for AlphaFold-Multimer, and  UniRef90. Also because the databases are updated we we would not get the same results as those shown in CLASP14 as the data has changed.
