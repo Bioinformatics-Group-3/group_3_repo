@@ -1,7 +1,8 @@
 # Group Report
 
 ## Section 1 (Sophia)
-- Placeholder for my section.
+- The authors are attempting to increase atomic accuracy to address the gaps within single protein structures, the “protein folding problem.” They developed the first computational approach that is able to predict protein structures near experimental accuracy. They entered their neural network, AlphaFold, into the CASP14 assessment (protein prediction center), and crushed the competition in major protein prediction. AlphaFold’s predictions were off by only 0.96 Ångströms (unit to measure the size of atoms) on average (aka less than 1/10th the width of a single atom). The second-best method was off by 2.8 Ångströms—nearly three times worse. AlphaFold achieved a level of accuracy that was previously thought impossible: it can predict the protein backbone and also the precise positions of side chains.
+  
 ## Section 2 (Leeva)
 - The authors decided to use computational tools that focused either on the protein’s physical interactions or the evolutionary history to determine its three-dimensional structure, with physical interactions focusing more on the proteins properties and mechanisms and the evolutionary history is how the protein is believed to have evolved. This was developed with assistance from the Protein Data Bank (PDB) and genomic sequencing data, but even with these methods they fall short of experimental results. Evoformer shows protein structure predictions, and how certain residues in the protein statistically and geometrically interact with each other. An IPA method was used to combine single, pair, and geometric representations in 3D space to predict protein structure and how each residue interacts with one another. Imputed networks include the amino acid sequence of the protein of interest as well as the amino acid sequence of evolutionarily related proteins.
 
