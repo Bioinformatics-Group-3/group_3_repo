@@ -23,3 +23,16 @@ Contribution: gives important insight into the relations between brain structure
 
 RELEVANCE
 Theme: Combines known data about structural and functional neuron and brain correlations with the neurogenetic and neurotranscriptome profiles to generate a comprehensive view of the brain, its different regions, and the underlying molecular and biological mechanisms.  
+
+Lab Report #2— Benchmarking drug–drug interaction prediction methods: a perspective of distribution changes
+Biologist: Leeva Selioutski 
+Date: 10.29.25
+
+GitHub Code: https://github.com/LARS-research/DDI-Bench 
+Found on: Google Scholar 
+Platform:SUMMARY
+Purpose: To create a robust benchmarking framework (DDI-Ben) that evaluates emerging drug–drug interaction prediction methods under realistic distribution changes, rather than relying on oversimplified i.i.d. splits.
+Key Problem: Existing DDI prediction evaluations assume that known and new drugs follow the same distribution. This neglects real-world distribution changes (e.g., chemical novelty, approval timelines), leading to unreliable performance assessments of computational methods.
+RELEVANCE
+Theme:Introduces a distribution change simulation framework that models differences between known and new drug sets. 
+
