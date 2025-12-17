@@ -51,3 +51,18 @@ Contribution: Demonstrates the use of genome-wide sequencing to uncover adaptive
 RELEVANCE
 Theme: integration of ecological context with genomic data
 
+Lab Report #4—VAPiD, viral annotation pipeline and identification
+Biologist: Leeva Selioutski 
+Date: 10.29.25
+
+GitHub Code: https://github.com/rcs333/VAPiD 
+Found on: Google Scholar 
+Platform: Python, Windows, Linux, MacOS
+
+SUMMARY
+Purpose: Enables easy submission of viral genomes into NCBI GenBank, which is required for publication and data availability; allows input of viruses of different genome types, such as DNA, RNA, retroviruses, and the like. Can handle individual or batch submissions of different types of viral genomes. In order to accept submitted viral genomic data, NCBI GenBank requires 1) viral sequence complete with at least one protein annotation, 2) author/depositor metadata, and 3) viral sequence metadata, such as strain, collection date, collection location, and coverage.
+Key Problem: GenBank currently has automatic prokaryotic and eukaryotic genome annotation pipelines but has no viral annotation pipeline beyond influenza virus (all are DNA-based genomes). Does not include RNA-based genomes seen in quite a few viruses. Complex viral life cycles involving RNA editing, ribosomal slippage, and overlapping reading frames create certain annotation issues, along with non-standard nomenclature for viral gene products. 
+Contribution: A portable and lightweight command-line tool for annotation and GenBank deposition of viral genomes, supports annotation of nearly all unsegmented viral genomes, validated for all sorts of viruses (DNA, RNA, retroviruses, etc.). Any sort of infectious disease, especially and including viruses, have the potential to spread and become epidemic. Viral genomes are made accessible through a publicly searchable database. Focus on the epidemiological or scientific insight gained from sequencing rather than rote protocols for data deposition. Provides an automatic viral genome annotation pipeline and a universal annotator regarding all virus types. 
+
+RELEVANCE
+Theme: “A portable, lightweight, user-friendly, internet-enabled, open-source, command-line genome annotation and submission package to facilitate virus genome submissions to NCBI GenBank.” “A lightweight and user-friendly command-line tool that takes FASTA files of complete or near complete viral genomes as input, automatically annotates them, and outputs the required files for GenBank submission over email.”
