@@ -1,0 +1,6 @@
+Report #1
+Github: https://github.com/mahlernim/warfarin_prediction_kscpt_tutorial
+Outcome: Partial success.
+Process: I cloned the repo and tried to run the main Jupyter notebook (KSCPT workshop.ipynb). The notebook uses a cleaned IWPC dataset (IWPC_cleaned.csv) that’s already included, which is nice because I didn’t have to do the full data-cleaning pipeline myself. I was able to get the earlier parts working (loading the data and running the basic model training steps). But one later section broke because the code calls a scikit-learn function that doesn’t exist anymore in newer versions. Specifically, the notebook uses sklearn.inspection.plot_partial_dependence to make partial dependence plots. That function was deprecated and then removed in newer scikit-learn releases, so my run failed at that point with an error about the function being missing. To fix it, I would either need to install an older scikit-learn version that still has that function (the paper reports using scikit-learn 1.0.1), or update the code to use the modern replacement (PartialDependenceDisplay.from_estimator). Because I couldn’t complete the partial dependence plot section as written, I wasn’t able to fully run the whole tutorial end-to-end in my current environment.
+Engineer: Haider Gilani 
+
