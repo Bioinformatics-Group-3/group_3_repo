@@ -2,4 +2,10 @@ Report # 1
 Github: https://github.com/compneurobilbao/bha2 
 Outcome: failure
 Process: I cloned the bha2 repository and followed the instructions to run the code inside the provided devcontainer and execute the main tree-building pipeline. Although the required MRI-derived datasets are publicly available on Zenodo, the project assumes substantial prior domain-specific preprocessing and exact data organization (including SC, FC, time-series, and parcellation files) without providing a validated end-to-end script or a minimal working example to verify correctness. Even with access to the data, it was not possible to confidently execute build_tree.py without reconstructing multiple preprocessing steps and implicit assumptions that are not fully specified in the repository. As a result, I was unable to reliably run the pipeline or reproduce any of the reported outputs using the code as provided.
- 
+Engineer: Rayhan Zaman
+ Report # 2
+Github: https://github.com/LARS-research/DDI-Bench
+Outcome: partial success
+Process:  I started by cloning the DDI‑Bench repo and setting up a conda environment with Python 3.8, then spent a bunch of time wrestling with different PyTorch, DGL, and PyG versions to make the baselines work. I eventually got the main DDI‑Bench models like MSTE and MLP running on the DrugBank dataset after reinstalling CPU‑only PyTorch a few times and fixing dependency conflicts. After that, I moved on to the EmerGNN models, which were much harder to get working and I kept switching between PyTorch 1.10 and 1.12, reinstalling torch‑scatter, torch‑sparse, and the rest of the PyG stack just to get evaluate.py to run with different GPU flags, but I did manage to get EmerGNN to execute in CPU mode. Finally, I tried to get DDI‑GPT working. At first, the BioGPT model inside the repo wouldn’t load properly because important weights were uninitialized, so I manually created a biogpt folder and downloaded the HuggingFace model. After installing transformers and sacremoses, I was finally able to run main_drugbank.py with the cluster split strategy. I never got TextDDI fully working with all dataset types, ot DDI‑GPT but the core DDI‑Bench models were the ones I successfully ran.
+Engineer: Rayhan Zaman 
+
