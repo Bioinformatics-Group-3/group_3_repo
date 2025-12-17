@@ -11,3 +11,8 @@ Outcome: Partial success.
 Process: I cloned the genmap repo and followed the README. GenMap is a command-line C++ tool that computes genome “mappability” (how unique each k-mer is) while allowing up to e mismatches, and it can export results in formats like WIG and BED/bedGraph. I installed it through Bioconda to avoid dealing with CMake/submodules and compiler issues. After installing, I could run the basic workflow: build an index from a FASTA file and then compute mappability, which writes text + wig + bedGraph outputs. Where I got stuck was reproducing the paper-level results (runtime/benchmark comparisons and the exact experimental setups). The repo is “not actively maintained,” and while it explains how to run the tool, it doesn’t provide a clean, one-command benchmark pipeline with pinned genome versions and settings that would let me recreate the paper’s tables/claims in a straightforward way. So the tool itself ran for me on test inputs, but I couldn’t fully replicate the paper’s reported benchmarking results.
 Engineer: Haider Gilani 
 
+Report #3
+Github: https://github.com/HuffordLab/GenomeQC
+Outcome: Failure
+Process: I cloned the repo and followed the README. GenomeQC has a lot of dependencies, so instead of installing everything manually I used the Docker setup the repo provides.  After that, the tool ran and produced the expected QC outputs (summary metrics and plots), so the software itself worked. But this is mainly a general QC tool, not a step-by-step “reproduce these exact paper figures” pipeline. The repo doesn’t include one fixed dataset + exact commands/parameters tied to the paper’s reported results, so there wasn’t a clean way to recreate and quantitatively compare the paper’s figures.
+ 
