@@ -36,3 +36,18 @@ Key Problem: Existing DDI prediction evaluations assume that known and new drugs
 RELEVANCE
 Theme:Introduces a distribution change simulation framework that models differences between known and new drug sets. 
 
+Lab Report #3–Environmental DNA metabarcoding of lake fish communities reflects long-term data from established survey methods
+Biologist: Leeva Selioutski 
+Date: 10.29.25
+
+GitHub Code:https://github.com/HullUni-bioinformatics/Haenfling_et_al_2016   
+Found on: Google Scholar 
+Platform: 
+
+SUMMARY
+Purpose: The study aims to investigate how genomic variation and population structure shape adaptive processes in natural populations, using large-scale sequencing approaches. It focuses on integrating ecological and evolutionary perspectives to better understand genetic diversity in the wild.
+Key Problem: Traditional population genetics often relies on limited markers or small sample sizes, which restricts the ability to detect fine-scale adaptive variation. With the rise of next-generation sequencing, researchers face challenges in analyzing massive datasets and linking them to ecological context.
+Contribution: Demonstrates the use of genome-wide sequencing to uncover adaptive genetic variation in natural populations.
+RELEVANCE
+Theme: integration of ecological context with genomic data
+
