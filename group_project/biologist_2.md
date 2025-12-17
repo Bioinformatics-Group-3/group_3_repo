@@ -66,3 +66,19 @@ Contribution: A portable and lightweight command-line tool for annotation and Ge
 
 RELEVANCE
 Theme: “A portable, lightweight, user-friendly, internet-enabled, open-source, command-line genome annotation and submission package to facilitate virus genome submissions to NCBI GenBank.” “A lightweight and user-friendly command-line tool that takes FASTA files of complete or near complete viral genomes as input, automatically annotates them, and outputs the required files for GenBank submission over email.”
+
+Lab Report #5—DeepHINT 
+Biologist: Leeva Selioutski 
+Date: 10.29.25
+
+GitHub Code: https://github.com/nonnerdling/DeepHINT 
+Found on: Google Scholar 
+Platform: 
+
+SUMMARY
+Purpose: The study aims to develop a computational framework that can accurately predict HIV-1 genome integration sites while also offering interpretable mechanistic insights. This is critical because HIV integration is linked to viral latency and rebound, which complicates treatment strategies
+Key Problem: Traditional computational methods for predicting HIV integration sites rely heavily on explicit feature engineering and diverse experimental datasets (RNA-seq, ChIP-seq, DNase-seq). These approaches are limited by data availability and often fail to capture the broader genomic context, making mechanistic understanding incomplete
+Contribution: Learns predictive features directly from DNA sequence data, reducing reliance on external experimental inputs. Outperforms conventional models (e.g., random forest, logistic regression) in predicting integration sites. Uses attention mechanisms to highlight important genomic regions, revealing potential roles of DNA-binding proteins and chromatin accessibility in HIV integration.
+
+RELEVANCE
+Theme: Uses attention mechanisms to highlight important genomic regions, revealing potential roles of DNA-binding proteins and chromatin accessibility in HIV integration.
