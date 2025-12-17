@@ -82,3 +82,19 @@ Contribution: Learns predictive features directly from DNA sequence data, reduci
 
 RELEVANCE
 Theme: Uses attention mechanisms to highlight important genomic regions, revealing potential roles of DNA-binding proteins and chromatin accessibility in HIV integration.
+
+Lab Report #6— Lists from genome-scale cancer screens with oncoEnrichR
+Biologist: Leeva Selioutski 
+Date: 10.29.25 
+
+GitHub Code: https://github.com/sigven/oncoEnrichR 
+Found on: Google Scholar 
+Platform: 
+
+SUMMARY
+Purpose:    To provide a systematic framework for analyzing and prioritizing genes identified in genome‑scale cancer screens. The tool, oncoEnrichR, integrates functional annotation, pathway enrichment, and cancer relevance scoring to help researchers interpret large gene lists.
+Key Problem: Genome‑scale cancer screens (e.g., CRISPR, RNAi, mutational profiling) often produce long lists of candidate genes. Researchers struggle to identify which genes are biologically meaningful, clinically relevant, or worth pursuing experimentally. Existing tools are fragmented and lack cancer‑specific context.
+Contribution: Combines multiple annotation sources (functional pathways, protein interactions, druggability, cancer relevance). Provides interactive visualization and prioritization of candidate genes. Offers reproducible workflows for cancer‑focused gene list interrogation. 
+
+RELEVANCE
+Theme: This work falls under Cancer Genomics / Bioinformatics Tools. It is highly relevant to course topics on functional genomics, pathway analysis, and translational bioinformatics. The tool bridges computational analysis with experimental prioritization, making it promising for replication and integration into lab workflows.
