@@ -10,7 +10,7 @@ The Ahn paper demonstrates how to build machine learning-based warfarin dose pre
 
 **Relevance**  
 This paper aligns perfectly with our “Pharmacogenomics & Personalized Pharmacotherapy” theme, as it demonstrates how genetic mutations in drug-metabolizing enzymes directly inform clinical treatment decisions. The CYP2C9 and VKORC1 genetic variants influence how individual patients metabolize warfarin, resulting in varying optimal doses across the population. By integrating genomic data with machine learning approaches, the paper demonstrates a practical application of translating genome-level information into personalized pharmacotherapy, which represents the core goal of precision medicine: tailoring drug treatment to individual patient characteristics to maximize efficacy while minimizing adverse effects.
-
+ 
 ---
 
 **Lab Report 2**—[GenMap: ultra-fast computation of genome mappability](https://doi.org/10.1093/bioinformatics/btaa222)  
